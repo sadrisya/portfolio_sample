@@ -1,0 +1,92 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+}
+
+.header {
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+}
+
+.links {
+    text-decoration-line: none;
+    font-size: 30px;
+    color: black;
+    margin-right: 40px;
+    transition: all 1s;
+}
+.links:hover{
+    color: red;
+    font-size: 35px;
+}
+.home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.intro{
+    padding: 30px;
+    font-size: 16px;
+}
+.intro_head{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.intro_p{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.intro_link{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.intro_img{
+    position: relative;
+    margin-left: 93px;
+}
+.intro_img1{
+    position: absolute;
+    width: 75%;
+    left: 88px;
+}
+.intro_img2{
+    width: 100%;
+}
+#about{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    column-gap: 10px;
+}
+.abt_img>img{
+    width: 100%;
+}
+.abt_container>h4{
+    color: red;
+    font-size: 20px;
+}.abt_container>p{
+    text-align: justify;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    visibility: hidden;
+}
+p::first-letter{
+    font-size: 20px;
+    color: rgb(2, 2, 92);
+}
